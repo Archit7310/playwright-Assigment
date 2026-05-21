@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","643","should show error message for empty credentials","chromium","2026-05-21","passed","2026-05-21","Login Tests","tests\login.spec.ts","",""
-"","768","should navigate to the inventory page after successful login","chromium","2026-05-21","passed","2026-05-21","Login Tests","tests\login.spec.ts","",""
-"","721","should show error message for invalid login","chromium","2026-05-21","passed","2026-05-21","Login Tests","tests\login.spec.ts","",""
-"","635","should show error message for empty username","chromium","2026-05-21","passed","2026-05-21","Login Tests","tests\login.spec.ts","",""
-"","692","should show error message for empty password","chromium","2026-05-21","passed","2026-05-21","Login Tests","tests\login.spec.ts","",""
