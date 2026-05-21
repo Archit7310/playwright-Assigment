@@ -23,5 +23,11 @@
         "username": "",
         "password": "secret_sauce",
         "errorMessage": "Epic sadface: Username is required"
-    }
+    },
+    "checkoutInfo": {
+        "firstName": "Archit",
+        "lastName": "Khurana",
+        "postalCode": "124001"
+    },
+    "successmessage": "Thank you for your order!"
 }
