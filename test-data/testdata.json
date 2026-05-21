@@ -1,0 +1,27 @@
+{
+    "Invalid_Login": {
+        "username": "invalid_user",
+        "password": "invalid_password",
+        "errorMessage": "Epic sadface: Username and password do not match any user in this service"
+    },
+    "Navigation": {
+        "homePageURL": "https://www.saucedemo.com/inventory.html",
+        "homePageTitle": "Swag Labs",
+        "inventoryPageTitle": "Products"
+    },
+    "Empty_Credentials": {
+        "username": "",
+        "password": "",
+        "errorMessage": "Epic sadface: Username is required"
+    },
+    "Empty_Password": {
+        "username": "standard_user",
+        "password": "",
+        "errorMessage": "Epic sadface: Password is required"
+    },
+    "Empty_Username": {
+        "username": "",
+        "password": "secret_sauce",
+        "errorMessage": "Epic sadface: Username is required"
+    }
+}
