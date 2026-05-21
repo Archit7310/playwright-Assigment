@@ -6,3 +6,11 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+.env/
+.github/
+.vscode/
+.allure/
+allure-results/
+allure-report/
+.package-lock.json/
+.package.json/
