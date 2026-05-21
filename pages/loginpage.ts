@@ -1,12 +1,12 @@
 import { Page, Locator } from '@playwright/test';
 
 export class LoginPage{
-    private submitButton: Locator;
-    private errorMessageLocator: Locator;
-    private userNameFieldCrossIcon: Locator;
-    private passwordFieldCrossIcon: Locator;
+    public submitButton: Locator;
+    public errorMessageLocator: Locator;
+    public userNameFieldCrossIcon: Locator;
+    public passwordFieldCrossIcon: Locator;
 
-    constructor(private page: Page) {
+    constructor(public page: Page) {
         this.page = page;
         this.submitButton = this.page.locator('#login-button');
         this.errorMessageLocator = this.page.locator('[data-test="error"]');

@@ -1,10 +1,10 @@
 import{Page,Locator} from '@playwright/test';
 
 export class LogoutPage{
-    private HamburgerMenu: Locator;
-    private LogoutButton: Locator;
+    public HamburgerMenu: Locator;
+    public LogoutButton: Locator;
 
-    constructor(private page: Page) {
+    constructor(public page: Page) {
         this.page = page;
         this.HamburgerMenu = this.page.locator('#react-burger-menu-btn');
         this.LogoutButton = this.page.locator('#logout_sidebar_link');
