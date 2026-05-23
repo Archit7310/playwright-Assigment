@@ -30,4 +30,5 @@ export class CartPage {
     async clickCheckout() {
         await this.checkoutButton.click();
     }
+    
 }
