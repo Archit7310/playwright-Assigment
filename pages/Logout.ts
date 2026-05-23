@@ -1,7 +1,7 @@
 import{Page,Locator} from '@playwright/test';
 
 export class LogoutPage{
-    public HamburgerMenu: Locator;
+    private HamburgerMenu: Locator;
     public LogoutButton: Locator;
 
     constructor(public page: Page) {
